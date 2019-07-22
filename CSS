@@ -1,0 +1,20 @@
+
+html {
+    font size: 100%;
+    margin: auto;
+    }
+
+/* TYPEOGRAPHY */
+  p {
+    font-family: ;
+    }
+
+/* SECTIONS */
+
+  header, footer {
+    background-image: linear-gradient(to bottom right, silver, limegreen);
+    }
+    
+    div {
+        box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+     }
