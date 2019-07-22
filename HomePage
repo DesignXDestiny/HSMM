@@ -1,34 +1,36 @@
 <!DOCTYPE html>
 <html>
-<head>
-<title>Holy Smoke</title>
-</head>
+    <head>
+        <title>Holy Smoke</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="hsmm.css">
+    </head>
 
 <body>
 
 
-<header>
-    <h1>Holy Smoke Misfit Missionaries</h1>
-    
+    <header>
+        <h1>Holy Smoke Misfit Missionaries</h1>
+        <nav></nav>    
 
-<header>
-
-
-<div>
-      <h3>About</h3>
-          <p>This is a non-profit organization dedicated to not letting unfortunate people drown in misery.</p>
-</div>
-
-<div>
-      <h3>Social Media, Entertainment, & Content</h3>
-      
-      <p>Follow us on Facebook, Instagram, and Freemont Street Experience!</p>
-</div>
+    <header>
 
 
-<footer>
-    <p>Contact information: ....</p>
-</footer>
+        <div>
+              <h3>About</h3>
+                  <p>This is a non-profit organization dedicated to not letting unfortunate people drown in misery.</p>
+        </div>
+
+        <div>
+              <h3>Social Media, Entertainment, & Content</h3>
+
+              <p>Follow us on Facebook, Instagram, and Freemont Street Experience!</p>
+        </div>
+
+
+    <footer>
+        <p>Contact information: ....</p>
+    </footer>
 
 </body>
 </html>
