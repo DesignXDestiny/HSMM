@@ -1,23 +1,34 @@
 <!DOCTYPE html>
 <html>
+    
     <head>
         <title>Holy Smoke</title>
+       
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
         <link rel="stylesheet" href="hsmm.css">
+        <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Annie+Use+Your+Telescope|Barriecito|Black+Ops+One|Butcherman|Cabin+Sketch|Fredoka+One|Gloria+Hallelujah|Gochi+Hand|Kalam|Love+Ya+Like+A+Sister|Monoton|Permanent+Marker|Rock+Salt|Viga|Wallpoet&display=swap" rel="stylesheet">
+        
+        <!--[if lt IE 9]>
+          <script src="https://www.noupe.comdist/html5shiv.js"></script>
+        <![endif]-->
     </head>
 
 <body>
 
 
     <header>
-        <h1>Holy Smoke Misfit Missionaries</h1>
-        <nav></nav>    
+        <h1 id="top">Holy Smoke Misfit Missionaries</h1>
+        <nav>
+            <li><a href="#top">Top</a></li>
+            <li><a href="#btm">Bottom</a></li>
+        </nav>    
 
     <header>
 
 
         <div>
-              <h3>About</h3>
+              <h2>About</h2>
                   <p>This is a non-profit organization dedicated to not letting unfortunate people drown in misery.</p>
         </div>
 
@@ -30,16 +41,19 @@
         <div>
                 <h3>Mission Episode Series</h3>
                 
-                <p>These are some the the Missions we have gone on...</h3>
-                <section>
-                    <h4>Episode 1</h4>
-                    <p>vidoe, image, caption summary & description, your goal.</p>
-                </section>
+                <p>These are some the the Missions we have gone on...</p>
+                
+            <section>
+                <h4>Episode 1</h4>
+                <p>Video, image, caption summary & description, your goal.
+                </p>
+            </section>
         </div>
 
 
     <footer>
-        <p>Contact information: ....</p>
+        <p id="btm">Contact information: ...
+        <br>Phone, email</p>
     </footer>
 
 </body>
