@@ -16,32 +16,23 @@
 
 <body>
 
-
     <header>
         <h1 id="top">Holy Smoke Misfit Missionaries</h1>
-        <nav>
+       
+       <nav>
             <li><a href="#top">Top</a></li>
             <li><a href="#btm">Bottom</a></li>
         </nav>    
-
     <header>
-
 
         <div>
               <h2>About</h2>
                   <p>This is a non-profit organization dedicated to not letting unfortunate people drown in misery.</p>
         </div>
-
-        <div>
-              <h3>Social Media, Entertainment, & Content</h3>
-
-              <p>Follow us on Facebook, Instagram, and Freemont Street Experience!</p>
-        </div>
         
         <div>
-                <h3>Mission Episode Series</h3>
-                
-                <p>These are some the the Missions we have gone on...</p>
+             <h3>Mission Episode Series</h3>
+             <p>These are some the the Missions we have gone on...</p>
                 
             <section>
                 <h4>Episode 1</h4>
@@ -49,7 +40,11 @@
                 </p>
             </section>
         </div>
-
+        <div>
+              <h3>Social Media, Entertainment, & Freaks</h3>
+              <h4>For more Smokin' Content,</h4>
+              <p>Follow us on Facebook, Instagram, and Freemont Street Experience!</p>
+        </div>
 
     <footer>
         <p id="btm">Contact information: ...
