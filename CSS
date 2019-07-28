@@ -1,4 +1,6 @@
+
 @import url('https://fonts.googleapis.com/css?family=Amatic+SC|Annie+Use+Your+Telescope|Barriecito|Black+Ops+One|Butcherman|Cabin+Sketch|Fredoka+One|Gloria+Hallelujah|Gochi+Hand|Kalam|Love+Ya+Like+A+Sister|Monoton|Permanent+Marker|Rock+Salt|Viga|Wallpoet&display=swap');
+
 
         /*
             font-family: 'Permanent Marker', cursive;
@@ -18,9 +20,11 @@
             font-family: 'Amatic SC', cursive;
             font-family: 'Black Ops One', cursive;
         */
+        
 
 body {
-
+        min-width: 100%;
+        max-width: 100%;
 }
 
 html {
@@ -38,7 +42,7 @@ html {
              border: 3px solid #73AD21;
              padding: 1rem; 
             position: fixed;
-            display: inline;
+            display: block;
         }
         
         
@@ -49,39 +53,51 @@ html {
         
         
 
+
 /* TYPEOGRAPHY */
       p {
-        font-family: 'Kalam', cursive;
+            font-family: 'Gloria Hallelujah', cursive;
         line-height: 1.4;
         max-width: 500px;
         margin: auto;
+        z-index: 1;
         }
-        
+
     
         h1{
           margin: auto;
           margin-top: 4px;
           font-family: 'Wallpoet', cursive;
-          font-size: 7vw;
+          font-size: 8vw;
           direction: rtl;
           position: fixed;
-          z-index: 0;
+          z-index: -1;
         }
         h2{
-            line-height: 0px;
+            font-size: 7vw;
+            padding: 1%;
          font-family: 'Rock Salt', cursive;
          margin: auto;
-        }
+         font-size: 200%;
+         text-align: center;        }
         h3{
+            font-size: 5vw;
             margin: auto;
             font-family: 'Love Ya Like A Sister', cursive;
+            margin: 1%;
         }
         h4{
-            font-family: 'Permanent Marker', cursive;
+           font-family: 'Amatic SC', cursive;
+           font-size: 5vw;
+           line-height: 4px;
         }
         h5 {
-           font-family: 'Amatic SC', cursive;
+            font-family: 'Permanent Marker', cursive;
+            font-size: 4vw;
         }
+        
+        
+        
         
 /* SECTIONS */
     
@@ -93,7 +109,8 @@ html {
         div {
             box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
             background-color: rgba(225, 225, 225, .4);
-            margin:4%;
+            margin: auto;
+            padding: 4%;
          }
          
          section {
