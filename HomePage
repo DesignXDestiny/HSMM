@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-    
     <head>
         <title>Holy Smoke</title>
        
@@ -16,14 +15,18 @@
 
 <body>
 
+       <nav>
+            <li><a href="#top">Top</a></li><br>
+            <li><a href="#btm">Bottom</a></li>
+        </nav> 
+
     <header>
         <h1 id="top">Holy Smoke Misfit Missionaries</h1>
        
-       <nav>
-            <li><a href="#top">Top</a></li>
-            <li><a href="#btm">Bottom</a></li>
-        </nav>    
-    <header>
+   
+    </header>
+    
+        <article class="Parallax"></article>
 
         <div>
               <h2>About</h2>
@@ -40,15 +43,18 @@
                 </p>
             </section>
         </div>
+        
+        
         <div>
               <h3>Social Media, Entertainment, & Freaks</h3>
               <h4>For more Smokin' Content,</h4>
-              <p>Follow us on Facebook, Instagram, and Freemont Street Experience!</p>
+              <p>Follow us on Facebook, Instagram, and Freemont Street Experience!
+                <br>Contact information: ...Phone, email</p>
         </div>
 
     <footer>
-        <p id="btm">Contact information: ...
-        <br>Phone, email</p>
+        <small id="btm">
+            Holy Smoke Misfit Missionaries &copy; 2019</small>
     </footer>
 
 </body>
