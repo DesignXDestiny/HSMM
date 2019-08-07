@@ -1,6 +1,4 @@
-
 @import url('https://fonts.googleapis.com/css?family=Amatic+SC|Annie+Use+Your+Telescope|Barriecito|Black+Ops+One|Butcherman|Cabin+Sketch|Fredoka+One|Gloria+Hallelujah|Gochi+Hand|Kalam|Love+Ya+Like+A+Sister|Monoton|Permanent+Marker|Rock+Salt|Viga|Wallpoet&display=swap');
-
 
         /*
             font-family: 'Permanent Marker', cursive;
@@ -20,8 +18,6 @@
             font-family: 'Amatic SC', cursive;
             font-family: 'Black Ops One', cursive;
         */
-        
-
 body {
         min-width: 100%;
         max-width: 100%;
@@ -52,7 +48,6 @@ html {
         }
         
         
-
 
 /* TYPEOGRAPHY */
       p {
@@ -96,8 +91,10 @@ html {
             font-size: 4vw;
         }
         
-        
-        
+        small {
+            font-family: 'Amatic SC', cursive;
+            float: right;
+        }
         
 /* SECTIONS */
     
@@ -116,3 +113,21 @@ html {
          section {
              padding: 5%;
          }
+         
+    /* PARALLAX */
+    
+        .parallax { 
+         /* The image used */
+           background-image: url("cover.jpg");
+          /* background-image: url("blimg/nppk.jpg");*/
+
+          /* Full height */
+          height: 100%; 
+    
+          /* Create the parallax scrolling effect */
+           background-attachment: fixed;
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+          z-index: -2;
+          }
