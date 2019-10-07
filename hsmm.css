@@ -1,0 +1,540 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Annie+Use+Your+Telescope|Barriecito|Black+Ops+One|Butcherman|Cabin+Sketch|Fredoka+One|Gloria+Hallelujah|Gochi+Hand|Kalam|Love+Ya+Like+A+Sister|Monoton|Permanent+Marker|Rock+Salt|Viga|Wallpoet&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Neucha|Quicksand&display=swap');
+        /*
+            font-family: 'Permanent Marker', cursive;
+            font-family: 'Barriecito', cursive;
+            font-family: 'Kalam', cursive;
+            font-family: 'Gloria Hallelujah', cursive;
+            font-family: 'Viga', sans-serif;
+            font-family: 'Fredoka One', cursive;
+            font-family: 'Monoton', cursive;
+            font-family: 'Gochi Hand', cursive;
+            font-family: 'Rock Salt', cursive;
+            font-family: 'Cabin Sketch', cursive;
+            font-family: 'Love Ya Like A Sister', cursive;
+            font-family: 'Annie Use Your Telescope', cursive;
+            font-family: 'Wallpoet', cursive;
+            font-family: 'Butcherman', cursive;
+            font-family: 'Amatic SC', cursive;
+            font-family: 'Black Ops One', cursive;
+                       font-family: 'Monoton', cursive;
+                       font-family: 'Quicksand', sans-serif;
+font-family: 'Neucha', cursive;
+        */
+html {
+    font-size: 100%;
+    margin: 0%;
+    background-image: linear-gradient(to bottom right, powderblue, silver, limegreen, yellow);
+    }
+
+body {
+        min-width: 100%;
+        max-width: 100%;
+        margin: 0px;
+        }
+
+
+  /* NAVIGATION */
+
+
+nav ul {
+  background-image: linear-gradient(to bottom right, rgba(0, 0, 0, 1), rgba(0, 0, 0, .0));
+  position: fixed;
+  width: 100%;
+  margin-left: -2px;
+  margin-top: -1px;
+    }
+
+ul li {
+ border-radius: 22px;
+ float: left;
+ list-style: none;
+
+ font-family: 'Barriecito', sans-serif;
+ font-size: 18px;
+ padding: 1%; 
+   color: orange;
+  border: 2px solid #73AD21;
+  }
+
+ul li:hover {
+      background-color: #73AD21;
+    }
+ 
+li a {
+   color: white;
+   text-decoration: none;
+   float: left;
+    }
+ 
+
+li a:hover {
+ -webkit-transform: rotate(-10deg) scale(1.2);
+ -moz-transform: rotate(-10deg) scale(1.2);
+ -o-transform: rotate(-10deg) scale(1.2);
+ color: brown;
+}
+
+
+.left a:hover {
+ 
+ /*Transition*/ 
+ -webkit-transition:All .5s ease;
+ -moz-transition:All .5s ease;
+ -o-transition:All .5s ease;
+ 
+ /*Transform*/ 
+ -webkit-transform: rotate(-10deg) scale(1.2);
+ -moz-transform: rotate(-10deg) scale(1.2);
+ -o-transform: rotate(-10deg) scale(1.2);
+}
+ 
+.right a:hover {
+ 
+ /*Transition*/ 
+ -webkit-transition:All .5s ease;
+ -moz-transition:All .5s ease;
+ -o-transition:All .5s ease;
+ 
+ /*Transform*/ 
+ -webkit-transform: rotate(10deg) scale(1.2);
+ -moz-transform: rotate(10deg) scale(1.2);
+ -o-transform: rotate(10deg) scale(1.2);
+}
+
+
+
+
+
+
+
+
+/* TYPEOGRAPHY */
+      p {
+        font-family: 'Neucha', cursive;
+        line-height: 1;
+        max-width: 450px;
+        margin: auto;
+        z-index: 1;
+        background-color: rgba(255,255,255, .6);
+        padding: 2%;
+        border-radius: 10px;
+        }
+
+  h1, h2, h3, h4, h5, h6 {
+      display: -webkit-flex; /* Safari */
+  -webkit-flex-wrap: wrap; /* Safari 6.1+ */
+  display: flex;  
+  flex-wrap: wrap;
+  padding: 3%;
+  }
+
+        h1{
+          margin: auto;
+          margin-top: 30%;
+          color: white;
+          font-family: 'Annie Use Your Telescope', cursive;
+          font-size: 10vw;
+          position: fixed;
+          z-index: -1;
+         }
+        h2{
+            font-size: 42px;
+         font-family: 'Rock Salt', serif;
+         margin: auto;
+         font-size: 150%;
+         text-align: center; 
+         float: left;
+          }
+        h3{
+            font-size: 36px;
+            margin: auto;
+            font-family: 'Love Ya Like A Sister', serif;
+            float: right;
+         /* shadow: 10px 10px 76px -1px rgba(255,255,255,1); */
+          }
+        h4{
+           font-family: 'Amatic SC', serif;
+           font-size: 38px;
+           line-height: 4px;
+           margin: 2%;
+           align-self: center;
+            }
+        h5 {
+            font-family: 'Permanent Marker', serif;
+            font-size: 18px;
+            }
+        
+        small {
+            font-family: 'Amatic SC', serif;
+            float: right;
+             }
+
+
+
+
+/* SECTIONS */
+ footer {
+          padding-top: 15%;
+            background-image: linear-gradient(to bottom right, rgba(0, 0, 0, .0), rgba(0, 0, 0, 1));
+        }
+
+        footer p{
+          background-color: none;
+        }
+        
+        div {
+            margin: auto;
+            padding: 1%;
+            clear: both; 
+            border-radius: 0px;
+               }
+         
+         section {
+             padding: 2%;
+             margin: auto;
+                 }
+
+
+
+
+
+
+  /* GRAPHIC  */
+
+    img {
+        float: none;
+        min-width: 100%;
+        border-radius: 10px;
+        margin: auto;
+        display: block;
+        max-width: 100%
+        }
+
+
+           /* PARALLAX */
+    
+        .parallax { 
+          border-radius: 0px;
+          margin: 0px;
+          
+         /* The image used */
+           background-image: url("img/cover.jpg");
+          /* background-image: url("blimg/nppk.jpg");*/
+
+          /* Full height */
+           max-height: 100%; 
+           min-height: 700px;
+
+          /* Create the parallax scrolling effect */
+          background-attachment: fixed;
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+          z-index:-3;
+          }
+
+        .parallax2 { 
+          border-radius: 0px;
+          margin: 0px;
+          color: white;
+          text-align: center;
+
+         /* The image used */
+           background-image: url("img/painting1.jpg");
+          /* background-image: url("blimg/nppk.jpg");*/
+
+          /* Full height */
+          height: 100%; 
+          min-height: 400px;
+          /* Create the parallax scrolling effect */
+           background-attachment: fixed;
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+          z-index: -1;
+          }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+
+html {
+    font-size: 100%;
+    margin: 0%;
+    background-image: linear-gradient(to bottom right, powderblue, silver, limegreen, yellow);
+    }
+
+* {
+   padding: 0;
+   margin: 0;
+}
+
+/*  NAVIGATION */
+
+nav ul {
+  padding: 1%;
+  background-image: linear-gradient(to bottom right, rgba(0, 0, 0, 1), rgba(0, 0, 0, .0));
+  position: fixed;
+  width: 100%;
+    }
+
+ul li {
+ border-radius: 25px;
+ float: left;
+ list-style: none;
+
+ font-family: 'Barriecito', sans-serif;
+ font-size: 25px;
+ padding: 8px; 
+   color: orange;
+  border: 2px solid #73AD21;
+  }
+
+ul li:hover {
+      background-color: #73AD21;
+    }
+ 
+li a {
+   color: white;
+   text-decoration: none;
+   float: left;
+    }
+ 
+
+li a:hover {
+ -webkit-transform: rotate(-10deg) scale(1.2);
+ -moz-transform: rotate(-10deg) scale(1.2);
+ -o-transform: rotate(-10deg) scale(1.2);
+ color: brown;
+}
+
+
+.left a:hover {
+ 
+ /*Transition*/ 
+ -webkit-transition:All .5s ease;
+ -moz-transition:All .5s ease;
+ -o-transition:All .5s ease;
+ 
+ /*Transform*/ 
+ -webkit-transform: rotate(-10deg) scale(1.2);
+ -moz-transform: rotate(-10deg) scale(1.2);
+ -o-transform: rotate(-10deg) scale(1.2);
+}
+ 
+.right a:hover {
+ 
+ /*Transition*/ 
+ -webkit-transition:All .5s ease;
+ -moz-transition:All .5s ease;
+ -o-transition:All .5s ease;
+ 
+ /*Transform*/ 
+ -webkit-transform: rotate(10deg) scale(1.2);
+ -moz-transform: rotate(10deg) scale(1.2);
+ -o-transform: rotate(10deg) scale(1.2);
+}
+
+
+  /* blocked Sept 28, 2019
+
+  nav {
+
+        font-family: 'Barriecito', cursive;
+         top: -20px;
+            }
+        
+        
+        nav a {
+             border-radius: 25px;
+            position: fixed;
+            display: block;
+            text-decoration: none;
+           color: brown;
+             border: 2px solid #73AD21;
+             padding: 10px;
+             margin: 0px;
+             font-size: 3.2vw;
+            }
+             nav a:hover {
+               background-color: #73AD21;
+                }
+              nav a:active {
+                background-color: brown;
+                                color: #73AD21;
+                }
+
+       */
+
+
+/* TYPEOGRAPHY */
+      p {
+          font-family: 'Neucha', cursive;
+        line-height: 2;
+      overflow: auto;
+        margin: auto;
+        z-index: 1;
+        padding: 2%;
+        }
+
+  h1, h2, h3, h4, h5, h6 {
+      display: -webkit-flex; /* Safari */
+  -webkit-flex-wrap: wrap; /* Safari 6.1+ */
+  display: flex;  
+  flex-wrap: wrap;
+  padding: 3%;
+  }
+
+        h1{
+          margin: auto;
+          color: white;
+          font-family: 'Annie Use Your Telescope', cursive;
+          font-size: 7vw;
+          position: fixed;
+          z-index: -1;
+         }
+        h2{
+            font-size: 42px;
+         font-family: 'Rock Salt', serif;
+         margin: auto;
+         font-size: 200%;
+         text-align: center;       
+          }
+        h3{
+            font-size: 38px;
+            margin: auto;
+            font-family: 'Love Ya Like A Sister', serif;
+         /* shadow: 10px 10px 76px -1px rgba(255,255,255,1); */
+          }
+        h4{
+           font-family: 'Amatic SC', serif;
+           font-size: 38px;
+           line-height: 4px;
+            }
+        h5 {
+            font-family: 'Permanent Marker', serif;
+            font-size: 18px;
+            }
+        
+        small {
+            font-family: 'Amatic SC', serif;
+            float: right;
+             }
+
+
+
+/* SECTIONS */
+    
+  header {
+    margin-top: -10px;
+    padding: 0px;
+    display: block;
+     }
+
+
+     #about h2, h3 {
+        padding-top: 0px;
+        padding-bottom: 0px;
+     }
+        
+        div {
+            box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+            background-color: rgba(225, 225, 225, .4);
+            margin: auto;
+            margin: 10%;
+            padding: 6%;
+            clear: both; 
+            border-radius: 40px;
+              overflow: auto;
+            }
+         
+         section {
+             box-shadow: 1px 2px 4px rgba(0, 0, 0, .2);
+           background-color: rgba(255,255,255, .5);
+        border-radius: 25px;
+             padding: 5%;
+             margin: 5%;
+            clear: both;
+              overflow: auto;
+            margin: auto;
+            margin-bottom: 5%;
+            }
+
+       footer {
+          padding: 10%;
+           background-image: linear-gradient(to bottom right, rgba(0, 0, 0, .0), rgba(0, 0, 0, 1));
+              }
+
+
+  /* GRAPHIC  */
+
+
+    img {
+        float: left;
+        width: 50%;
+        height: 100%; 
+        margin: auto;
+        border-radius: 25px;
+        display: block;
+          }
+
+
+         
+    /* PARALLAX */
+    
+        .parallax { 
+          border-radius: 0px;
+          margin: 0px;
+          
+         /* The image used */
+           background-image: url("img/cover.jpg");
+          /* background-image: url("blimg/nppk.jpg");*/
+
+          /* Full height */
+           min-height: 100%; 
+          /* Create the parallax scrolling effect */
+          background-attachment: fixed;
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+          z-index:-3;
+          }
+
+        .parallax2 { 
+          border-radius: 0px;
+          margin: 0px;
+          color: white;
+          text-align: center;
+
+         /* The image used */
+           background-image: url("img/painting1.jpg");
+          /* background-image: url("blimg/nppk.jpg");*/
+
+          /* Full height */
+          height: 100%; 
+          min-height: 400px;
+          /* Create the parallax scrolling effect */
+           background-attachment: fixed;
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+          z-index: -2;
+          }
+}
+
+
