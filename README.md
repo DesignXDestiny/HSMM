@@ -1,4 +1,6 @@
 # HSMM
 NonProfit, feeding the homeless
-hoted with IONOS.com (1&1) 
+Hosted with IONOS.com (1&1).
+For: Arthur M & Teresa.
+***
 **HolySmokeVegas.com**
